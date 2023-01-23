@@ -20,6 +20,7 @@ np.array()
 
 ## Program:
 (i) To find the L and U matrix
+```
 '''Program to find L and U matrix using LU decomposition.
 Developed by: Naveen M
 RegisterNumber: 22000748
@@ -30,8 +31,9 @@ a=np.array(eval(input()))
 p,l,u=lu(a)
 print(l)
 print(u)
-
+```
 (ii) To find the LU Decomposition of a matrix
+```
 '''Program to solve a matrix using LU decomposition.
 Developed by: Naveen M
 RegisterNumber: 22000748
@@ -46,6 +48,8 @@ lu,piv=lu_factor(a)
 x=lu_solve((lu,piv),b)
 print(x)
 
+
+```
 ## Output:
 ![lu1](https://user-images.githubusercontent.com/117974950/212479444-d0f7533f-3d3c-403e-8cd0-1e64f9a0a28f.png)
 
